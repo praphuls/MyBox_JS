@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en' ng-app='APP'>
+<head>
+	<meta charset='UTF-8'>
+	<title>_Array{}</title>
+	<script type="text/javascript" src='_Array.js'></script>
+	<script type="text/javascript">
+		var arr = new _Array({'name': 'Henry'})
+		arr._push({'name': 'Larry'})
+		arr._push({'name': 'Surgey'})
+		arr._push({'name': 'Frank'})
+
+		console.log(arr._length);
+		console.log(arr._join());
+		//console.log(arr._pop());
+		console.log(arr._length);
+		console.log(arr._join());
+		console.log(arr._indexOf({'name': 'Frank'}));
+		console.log(arr._reverse());
+		console.log(arr._length);
+		//console.log(arr._shift());
+		console.log(arr._length);
+		//console.log(arr._unShift({'name': 'Ram'}));
+		console.log(arr._length);
+		console.log(arr._slice(-3,-1));
+		console.log(arr._join('AND'));
+		console.log(arr._arrayValuesByIndex(0));
+		console.log(arr._length);
+		//console.log(arr._push({'name':'Newton'}));
+		console.log(arr._length);
+		console.log(arr._join());
+		//console.log(arr._arrayValuesByIndex(7).name); - throws Range Error
+		console.log(arr._arrayObj());
+		console.log(arr._arrayObj());
+
+		console.log(arr._sortBy('values', 'descending'));
+		console.log(arr._sort());
+		console.log(arr._length=10);
+		console.log(arr._length);
+		console.log(arr._slice(1,1));
+		console.log(arr._sortBy('keys', 'ascending'));
+		console.log(arr._sortBy('keys', 'descending'));
+		console.log(arr._sortBy('values', 'ascending'));
+		console.log(arr._sortBy('values', 'descending'));
+		console.log(arr._sortBy('keys'))
+	</script>
+</head>
+<body>
+</body>
+</html>
