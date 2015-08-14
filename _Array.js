@@ -2,7 +2,7 @@
 /*
 	Author: Praphul Sinha
 	Name: _Array
-	Description: Tihs class mimics the behaviour of an javscript Array class
+	Description: This class mimics the behaviour of an javscript Array class
 */
 // ************************************************************
 
